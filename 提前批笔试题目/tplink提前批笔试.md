@@ -48,8 +48,12 @@
 
    
 
-2. LeetCode 142.环形链表II: https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/linked-list-cycle-ii-kuai-man-zhi-zhen-shuang-zhi-/
+2. LeetCode 142.环形链表II: 
 
+   [环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/linked-list-cycle-ii-kuai-man-zhi-zhen-shuang-zhi-/)
+   
+   ![image-20210622192355638](image/image-20210622192355638.png)
+   
    ```c++
    /**
     * Definition for singly-linked list.
