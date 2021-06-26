@@ -13,3 +13,6 @@
 
 建议简单学习基础语法，仓库的文本类文件都规定为md文件
 
+# 贡献者
+
+HUST: Jinhe Lu, Yao Liu, Chanxin Zhou, Weijie Lu.
