@@ -15,4 +15,4 @@
 
 # 贡献者
 
-HUST: Jinhe Lu, Yao Liu, Chanxin Zhou, Weijie Lu.
+HUST: Jinhe Lu, Yao Liu, Chanxin Zhou, Weijie Lv.
