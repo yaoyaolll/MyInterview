@@ -1,4 +1,4 @@
-# TPLink一面嵌入式软件工程师
+# TPLINK一面嵌入式软件工程师
 
 1. define和const的区别？
 
@@ -8,7 +8,7 @@
 
    参考CSAPP。
 
-# TPLink二面嵌入式软件工程师
+# TPLINK二面嵌入式软件工程师
 
 1. 智力题：![image-20210618005156571](image/image-20210618005156571.png)
 
@@ -35,7 +35,7 @@
    	int max3 = INT_MIN;	// 第三大
    	for (int i = 0; i < n; ++i)
    	{
-   		vector<int> temp = { max1 ,max2,max3,nums[i] };
+   		vector<int> temp = { max1, max2, max3, nums[i] };
    		sort(temp.begin(), temp.end(), [](int x, int y) {return x > y; });
    		unique(temp.begin(),temp.end());
    
@@ -51,6 +51,8 @@
    }
    ```
 
-# TPLink三面嵌入式软件工程师
+# TPLINK三面嵌入式软件工程师
 
-1. 
+1. 自我介绍。
+2. 聊项目。
+3. 反问环节。
