@@ -19,3 +19,48 @@
 
 >感受：go问的比较多一点，面试官更注重实战，基本没有问太多八股文，重点考察了并发编程
 
+
+
+# 后端开发二面-2021.8.2
+
+感受：二面面试官没有一面认真，面试完不确定能不能过
+
+## 问题
+
+1. 线程和进程是什么
+2. 为什么有了进程还要有线程
+3. rpc和http的区别
+4. protobuf和rpc的关系
+5. 为什么要三次握手
+
+
+
+## 代码
+
+反转链表中指定的一段（lc92-反转链表II）
+
+~~~C++
+// 将第left到第right个节点反转，从1开始索引
+ListNode* reverseBetween(ListNode* head, int left, int right) {
+	if(!head || !head->next) return head;
+    int walked = 1;
+    ListNode* prehead = new ListNode(0);
+    prehead->next = head;
+    while(walked < left){
+        prehead = prehead->next;
+        walked++;
+    }
+    ListNode* cur = prehead->next;// cur是反转段链表的尾节点
+    while(walked < n){
+        ListNode* nextcur = cur->next;// 当前要取出来做头插法的节点
+        cur->next = nextcur->next;
+        nextcur->next = cur;
+        prehead->next = nextcur;
+        walked++;
+    }
+    return head;
+}
+~~~
+
+
+
